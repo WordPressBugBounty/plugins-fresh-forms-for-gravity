@@ -2,8 +2,8 @@
 Contributors: samuelaguilera
 Tags: Gravity Forms, gravityforms, cache, caching
 Requires at least: 4.9
-Tested up to: 6.5.5
-Stable tag: 1.5.2
+Tested up to: 6.7.1
+Stable tag: 1.5.3
 Requires PHP: 7.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
@@ -32,6 +32,7 @@ This plugin will take care of the above automatically doing the following:
 * **Divi**. It should work with any of the default modules where you can insert a GF shortcode into the content. e.g. Call To Action, Text, Tabs...
 * **Elementor**. The following widgets added to the post content are supported: Shortcode, Text.
 * [Essential Addons for Elementor](https://wordpress.org/plugins/essential-addons-for-elementor-lite/) Gravity Forms widget.
+* GravityKit Gravity Forms Widget for Elementor.
 * **PowerPack for Beaver Builder** Gravity Forms Styler module.
 * [Ultimate Addons for Beaver Builder](https://wordpress.org/plugins/ultimate-addons-for-beaver-builder-lite/) Gravity Forms Styler module.
 * Ultimate Addons for Elementor By Brainstorm Force.
@@ -162,6 +163,10 @@ Use **FreshForms** for the Cookie Name and **no-cache** for the Cookie Values.
 After doing the above, you need to **flush your host and browser cache**.
 
 == Changelog ==
+
+= 1.5.3 =
+
+* Added support for GravityKit Gravity Forms Widget for Elementor.
 
 = 1.5.2 =
 
