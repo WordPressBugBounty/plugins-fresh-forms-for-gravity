@@ -3,7 +3,7 @@ Contributors: samuelaguilera
 Tags: Gravity Forms, gravityforms, cache, caching
 Requires at least: 4.9
 Tested up to: 6.9.4
-Stable tag: 1.5.6
+Stable tag: 1.5.8
 Requires PHP: 7.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
@@ -163,6 +163,11 @@ Use **FreshForms** for the Cookie Name and **no-cache** for the Cookie Values.
 After doing the above, you need to **flush your host and browser cache**.
 
 == Changelog ==
+
+= 1.5.8 =
+
+* Minor code refactor for helper functions placement.
+* Changed page cache exclusion method for Speed Optimizer from cookie to sgo_exclude_urls_from_cache filter.
 
 = 1.5.6 =
 
